@@ -9,7 +9,7 @@ public class GoPlaces : MonoBehaviour
     private Transform[] _arrayPlaces;
     private int _numberOfPlaceInArrayPlaces;
 
-    void Start()
+    private void Start()
     {
         _arrayPlaces = new Transform[_allPlacespoint.childCount];
 

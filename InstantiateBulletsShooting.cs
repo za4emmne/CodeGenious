@@ -9,9 +9,10 @@ public class InstantiateBulletsShooting : MonoBehaviour
     [SerializeField] private float _number;
     [SerializeField] private GameObject _prefab;
     [SerializeField] private float _timeWaitShooting;
+
     private Transform _objectToShoot;
 
-    void Start()
+    private void Start()
     {
         StartCoroutine(ShootingWorker());
     }
