@@ -30,7 +30,7 @@ public class GoPlaces : MonoBehaviour
         }
     }
 
-    public Vector3 NextPlaceTakerLogic()
+    private Vector3 NextPlaceTakerLogic()
     {
         _numberOfPlaceInArrayPlaces++;
 
